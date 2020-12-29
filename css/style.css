@@ -25,9 +25,11 @@ li {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  position: absolute;
-  margin-left: 42%;
-  margin-top: 22%;
+  position: relative;
+  /* margin-left: 42%; */
+  /* margin-top: 22%; */
+  top: -55%;
+  left: 47%;
   -webkit-transform-style: preserve-3d;
   -webkit-transform: rotateX(13deg);
   -webkit-animation: move 5s linear infinite;
